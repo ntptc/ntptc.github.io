@@ -271,7 +271,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
+  - jekyll-target-blank
 
 # Archives
 #  Type
