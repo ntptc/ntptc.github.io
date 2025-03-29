@@ -11,20 +11,20 @@ layout: single
 
 # Github Pages配置
 
-1.注册Github。了解基本概念。[参见](https://www.youtube.com/watch?v=ARU-ZD9pfO4)
-2.挑选一个网站模板，用它生成一个自己的仓库。
-3.做好设置。有个关键设置：设置-选择Github actions（工作流），然后要选择Deploy Jekyll with GitHub Pages这个workflow（需要搜索下，当时我做完前几步默认显示是Jekyll，结果总是部署不成功）。
-4.去Code页面修改文档，会自动触发action。
-5.静态博客发布成功。
+1. 注册Github。了解基本概念。[参见](https://www.youtube.com/watch?v=ARU-ZD9pfO4)
+2. 挑选一个网站模板，用它生成一个自己的仓库。
+3. 做好设置。有个关键设置：设置-选择Github actions（工作流），然后要选择Deploy Jekyll with GitHub Pages这个workflow（需要搜索下，当时我做完前几步默认显示是Jekyll，结果总是部署不成功）。
+4. 去Code页面修改文档，会自动触发action。
+5. 静态博客发布成功。
 
 # Obsidian同步
 
-1.安装Obsidian，设置仓库。
-2.[获取个人token](https://dg-docs.ole.dev/advanced/fine-grained-access-token/)
-3.安装[Enveloppe插件](https://enveloppe.ovh/)
-4.开始在obsidian里写作。
-5.设置元数据。share: true
-6.ctrl+p，调用Upload single current active note 命令，发布。
+1. 安装Obsidian，设置仓库。
+2. [获取个人token](https://dg-docs.ole.dev/advanced/fine-grained-access-token/)
+3. 安装[Enveloppe插件](https://enveloppe.ovh/)
+4. 开始在obsidian里写作。
+5. 设置元数据。share: true
+6. ctrl+p，调用Upload single current active note 命令，发布。
 
 主要参考资料：
 https://leoz2050.github.io/DigitalGarden/2023/09/03/Build-Blog-Online.html
