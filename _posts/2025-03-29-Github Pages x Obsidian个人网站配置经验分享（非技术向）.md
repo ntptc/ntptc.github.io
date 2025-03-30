@@ -36,20 +36,19 @@ github: true
 
 1. 安装[Obsidian](https://obsidian.md/)，并启用[Enveloppe插件](https://enveloppe.ovh/)。
 2. 按此[流程](https://dg-docs.ole.dev/advanced/fine-grained-access-token/) 配置Github的个人token，完成Enveloppe插件参数设置。
-3. 按照Markdown语法写笔记，同时设置笔记YAML，我设置了四个元数据：share、tags、layout和date。
-4. 通过Enveloppe插件功能推送笔记到Github仓库，网页内容随后会自动更新。
+3. 按照[Markdown语法](https://www.markdownguide.org/getting-started/)写笔记，**注意**网址格式和引用图片要按标准格式。对于图片，我是在Obsidian里建立了/assets/images/文件夹，配图都放到该文件夹，这样上传到Github后也能自动识别。
+4. 设置笔记YAML，我设置了四个元数据：share、tags、layout和date。
+5. 通过Enveloppe插件功能推送笔记到Github仓库，网页内容随后会自动更新。
 
 # 三、踩过的坑
 
-## 网站模板选择
+## 网站模板挑花眼
 
 [Jekyll网站模板](https://jekyllrb.com/resources/)实在太多，试过四五个。最后还是选择了最热门的Minimal Mistakes，因为它的介绍文档最为详细，且因用的人多，遇到问题比较容易搜到答案。
 
-## Markdown 文件
+## Markdown 文件名
 
-
-1. 按照[Jekyll官方文档](https://jekyllrb.com/docs/posts/)，上传的Markdown文件名必须为："YYYY-MM-DD-标题”格式，否则无法识别。
-2. 根据[Markdown语法](https://www.markdownguide.org/getting-started/)，网页链接必须按规范编写才能识别。
+按照[Jekyll官方文档](https://jekyllrb.com/docs/posts/)，上传的Markdown文件名必须为："YYYY-MM-DD-标题”格式，否则无法识别。
 
 ## 繁琐细节太多
 
